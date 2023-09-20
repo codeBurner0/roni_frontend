@@ -1,0 +1,274 @@
+
+.main-div-profile{
+    background-color:#5228F5;
+    padding-top: 1%;
+    padding-bottom: 5vw;
+}
+
+.pro-tr:hover{
+    cursor: pointer;
+  }
+
+.outer-div-profile{
+    background-color:#bdb5dd4c;
+    width: 75vw;
+    border-radius: 7.5vw;
+    margin: auto;
+    padding: 2vw;
+}
+
+.inner-div-profile{
+    background-color:#a397d235;
+    width: 70vw;
+    height: 56vw;
+    border-radius: 6vw;
+    margin:auto ;
+}
+
+.internal-div{
+    width: 66vw;
+    height: 52vw;
+    background-color: white;
+    border-radius: 4vw;
+    position: absolute;
+    left: 16.8vw;
+    top: 21vw;
+}
+
+.image-profile{
+    width: 16vw;
+    position: absolute;
+    top: 2vw;
+    left: 14vw;
+    transform: translate(-50%);
+    filter: drop-shadow(10px 10px 10px  rgba(29, 28, 28, 0.423));
+}
+
+.profile-image-p{
+    position: absolute;
+    left: 7.8vw;
+    top: 5.4vw;
+    width: 12vw;
+}
+
+.profile-container{
+    position: absolute;
+    background-color: #9884ea4c;
+    left: 5vw;
+    top: 4.5vw;
+    width: 60vw;
+    height: 22vw;
+    z-index: 5;
+    position: relative;
+    border-radius: 3vw;
+    font-family: 'Permanent Marker', cursive;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.span-profile{
+    font-family: 'Caveat', cursive;
+    padding-left: 1vw;
+}
+
+.profile-details{
+    background-color: white;
+    border-radius: 2vw;
+    padding: 2vw;
+    position: absolute;
+    z-index: 3;
+    right: 5vw;
+    top: 5vw;
+    background-image: linear-gradient(to right, #9984ef , #9884ea4c);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.update-icon{
+    position: absolute;
+    top: 17.5vw;
+    left: 7.8vw;
+    font-size: 2vw;
+    transition: transform .2s;
+}
+
+.update-icon:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.user-history{
+    position: absolute;
+    background-color: #9884ea4c;
+    left: 5vw;
+    top: 7vw;
+    width: 60vw;
+    height: 22vw;
+    z-index: 5;
+    position: relative;
+    border-radius: 3vw;
+    font-family: 'Permanent Marker', cursive;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+
+
+.h1-profile{
+    font-size: 1.5vw;
+    margin-bottom: 1vw;
+    margin-top: 1vw;
+    color: black;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    
+  }
+  .table-profile{
+    width:50vw;
+    table-layout: fixed;
+    border-radius: 2vw;
+  }
+
+  .table-profile > tbody> tr > td{
+    padding: 7px;
+  }
+
+  .tbl-header-profile{
+    background-color: rgba(255,255,255,0.3);
+
+   }
+
+  .tbl-content-profile{
+    height:9vw;
+    overflow-x:auto;
+    border: 1px solid rgba(255,255,255,0.3);
+  }
+
+  .table-profile> thead> tr> th{
+    padding: 15px 4px;
+    text-align: left;
+    font-weight: 900;
+    font-size: 1.2vw;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Libre Baskerville', serif;
+  }
+  td{
+    padding: 15px;
+    padding-left: 18px;
+    text-align: left;
+    vertical-align:middle;
+    font-weight: 300;
+    font-size: 1.4vw;
+    color: #fff;
+    border-bottom: solid 1px #7d6eb9;
+  }
+  
+  
+  /* demo styles */
+  
+  .body-profile{
+    background: #5228F5;
+    font-family: monospace;
+    font-weight: 900;
+    border-radius: 2vw;
+    height: 18vw;
+    width: 56vw;
+    position: absolute;
+    left: 2vw;
+    top: 2vw;
+  }
+  .section-profile{
+    margin: 50px;
+    margin-top: 0px;
+  }
+  
+  /* for custom scrollbar for webkit browser*/
+  
+  ::-webkit-scrollbar {
+      width: 6px;
+  } 
+  ::-webkit-scrollbar-track {
+      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+  } 
+  ::-webkit-scrollbar-thumb {
+      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+  }
+
+  .symbol-coin{
+    width: 2vw;
+    position: relative;
+    top: 0.5vw;
+    left: -1vw;
+    }
+
+
+.profile-input {
+    height: 2vw;
+    outline: none;
+    border: none;
+    padding: 1vw;
+    border-bottom: 2px solid #1b0183;
+    background-color: white;
+    border-radius: 0.2vw;
+    font-family: monospace;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.profile-input:focus{
+    border:2px solid #0f0537;
+    border-radius: 1vw;
+}
+
+.profile-input1{
+    width: 12vw;
+    margin: 0.4vw 1vw;
+}
+
+.profile-input2{
+    width: 12vw;
+}
+
+.profile-input3{
+    display: block;
+    width: 25vw;
+    margin: 0vw 1vw;
+}
+
+.profile-input4{
+    display: block;
+    width: 25vw;
+    margin: 0.6vw 1vw;
+}
+
+.h1-update{
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+}
+
+.update-profile{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.profile-update-button{
+    padding: 0.4vw 4vw;
+    border-radius: 100px;
+    color: white;
+    background-color: black;
+    font-family: 'Caveat', cursive;
+    font-weight: 800;
+    font-size: 1.5vw;
+    border: none;
+       margin-top: 0.6vw;
+    margin-left: 7vw;
+}
+
+.profile-update-button:hover{
+    background-color: white;
+    border: 3px solid black;
+    cursor: pointer;
+    color: black;
+    font-weight: 900;
+}

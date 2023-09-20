@@ -1,0 +1,25 @@
+.footer-sec{
+    background-color: black;
+    padding:5vw 5vw;
+    color: white;
+    font-family: monospace;
+    position: absolute;
+    width: 100vw;
+}
+
+.footer-para{
+    color: white;
+    padding-top: 1vw;
+}
+.footer-para2{
+    color: white;
+}
+
+.footer-title{
+    padding-top: 1vw;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.footer-contact{
+    font-family: 'Caveat', cursive;
+}

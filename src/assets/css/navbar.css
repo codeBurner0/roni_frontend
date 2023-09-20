@@ -1,0 +1,130 @@
+.nav-container{
+    background-color: #5228F5;
+    width: 100vw;
+    height: 16vw;
+}
+
+.navbar{
+    width: 80vw;
+    height: 8vw;
+    background-color: white;
+    border-radius: 100px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 4vw;
+}
+
+.item{
+    list-style-type: none;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.list {
+    margin-top: 2.5vw;
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-start;
+    font-size: 2vw;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.anchor {
+    display: inline-block;
+    text-decoration: none;
+    padding: 0px 1.5vw;
+    color: rgb(37, 19, 4);
+    transition: transform .3s;
+}
+
+.anchor:hover {
+    text-decoration: underline;
+    transform: translateY(10%);
+    cursor: pointer;
+    color: black;
+    font-weight: 600;
+}
+
+.logo-img{
+    margin-top: -1vw;
+    margin-left: 2vw;
+    width: 10vw;
+    transition: transform 0.5s;
+}
+
+.logo-img:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.li-signin{
+    margin-left: 22vw;
+    padding-right: 1.5vw;
+    font-family: 'Caveat', cursive;
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+    transition: transform .3s;
+}
+
+.li-user{
+    padding-right: 1.5vw;
+    font-family: 'Caveat', cursive;
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+    transition: transform .3s;
+    position: absolute;
+    right: 14vw;
+}
+
+.li-signin:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    color: #3709f3;
+}
+
+.li-user:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    color: #3709f3;
+}
+
+.signup-button{
+    padding: 0.7vw 4vw;
+    border-radius: 100px;
+    color: white;
+    background-color: black;
+    font-family: 'Caveat', cursive;
+    font-weight: 800;
+    font-size: 1.5vw;
+    border: none;
+}
+
+.signup-button:hover{
+    background-color: white;
+    border: 3px solid black;
+    color: black;
+    cursor: pointer;
+}
+
+.logout-button{
+    padding: 0.7vw 4vw;
+    border-radius: 100px;
+    color: white;
+    background-color: black;
+    font-family: 'Caveat', cursive;
+    font-weight: 800;
+    font-size: 1.5vw;
+    border: none;
+    position: absolute;
+    right: 3vw;
+}
+
+.logout-button:hover{
+    background-color: white;
+    border: 3px solid black;
+    color: black;
+    cursor: pointer;
+}
